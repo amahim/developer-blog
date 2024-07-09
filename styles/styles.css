@@ -193,3 +193,33 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+
+/*footer styles*/
+.footer-container{
+    width: 1440px;
+    height: 100px;
+    margin-top: 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.footer-elements{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.authorname h5{
+    width: 456px;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-icons{
+    width: 157.01px;
+    height: 36px;
+    display: flex;
+    gap: 15px;
+}
+
