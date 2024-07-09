@@ -65,3 +65,49 @@ body{
     text-align: center;padding: 21px 24px 21px 24px;
     margin-top: 10px;
 }
+/*why wev dev section styles*/
+/*my inspiration section styles*/
+.inspiration-container{
+    width: 1140px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+.inspiration-texts{
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.inspiration-texts h3{
+    width: 852px;
+    height: 37px;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    text-align: center;
+    margin-top: -4px;
+}
+.inspiration-texts p{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: -10px;
+}
+.video-container{
+    width: 1076px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
