@@ -2,10 +2,10 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 /*common styles*/
 #heading-texts{
     width: 852px;
@@ -46,7 +46,6 @@ body{
 .banner-container{
     width: 100%;
     height: auto;
-    margin: 0 auto;
     background-image: url('../assets/Hero-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +59,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
 }
 .banner-content img{
     margin-top: 30px;
@@ -78,6 +76,7 @@ body{
     font-family: "Azeret Mono";
     font-size: 3rem;
     font-weight: 800;
+    margin-top: 15px;
 }
 .banner-texts p{
     width: 80%;
@@ -86,7 +85,7 @@ body{
     font-size: 1rem;
     font-weight: 400;
     opacity: 0.7;
-    margin-top: 10px;
+    margin-top: -10px;
 }
 .banner-button button{
     width: 250px;
@@ -102,7 +101,8 @@ body{
 }
 /*why wev dev section styles*/
 .web-dev-outside{
-    width: 1140px;
+    /* border: 2px solid black; */
+    width: 80%;
     height: 1395px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -110,15 +110,18 @@ body{
     margin-top: 75px;
 }
 .web-dev-inside{
-    width: 946px;
-    height: 1235px;
+    /* border: 2px solid red; */
+    width: 80%;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .web-dev-titles{
-    width: 852px;
-    height: 113px;
+    /* border: 2px solid yellow; */
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -126,19 +129,13 @@ body{
     align-items: center;
 }
 .web-dev-titles h3{
-    width: 852px;
-    height: 37px;
     color: rgb(13, 19, 33);
     font-family: "Azeret Mono";
     font-size: 32px;
     font-weight: 800;
-    line-height: 37px;
-    text-align: center;
-    margin-top: -4px;
 }
 .web-dev-titles p{
-    width: 852px;
-    height: 52px;
+    width: 95%;
     color: rgb(13, 19, 33);
     font-family: "Azeret Mono";
     font-size: 16px;
@@ -149,31 +146,32 @@ body{
     margin-top: -10px;
 }
 .inside-box{
-    width: 946px;
+    /* border: 2px solid green; */
+    width: 100%;
     height: 336px;
     border-radius: 16px;
+    
     margin: 0 auto;
-    margin-top: 32px;/* this is the line*/
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .content-box{
-    width: 850px;
-    height: 240px;
-    margin: 0 auto;
-    margin-top: 48px;
+    width: 90%;
+    height: 90%;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .left{
-    width: 477px;
-    height: 220px;
+    width: 50%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 30px;
 }
 .left h3{
-    width: 500px;
+    width: 100%;
     color: rgba(13, 19, 33, 0.7);
     font-family: "Azeret Mono";
     font-size: 24px;
@@ -181,13 +179,13 @@ body{
     margin-top: 10px;
 }
 .left p{
-    width: 468px;
-    height: 52px;
+    width: 100%;
     opacity: 0.7;
     color: rgb(13, 19, 33);
     font-family: "Azeret Mono";
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 40px;
 }
 .left button{
     width: 200px;
@@ -200,6 +198,9 @@ body{
     font-size: 20px;
     font-weight: 600;
     padding: 12px 20px 12px 20px;
+}
+.right img{
+    margin-top: 40px;
 }
 /*my inspiration section styles*/
 .inspiration-container{
@@ -393,7 +394,7 @@ body{
     /*banner styles*/
     .banner-container{
         width: 100%;
-        height: 520px;
+        height: 550px;
         /* height: auto; */
         /* background-repeat: no-repeat; */
         /* background-size: cover; */
@@ -402,10 +403,10 @@ body{
 
     .banner-content{
         width: 80%;
-        gap: 50px;
+        gap: 10px;
     }
     .banner-content img{
-        margin-top: 40px;
+        margin-top: 30px;
         width: 150px;
         height: 150px;
     }
@@ -416,7 +417,7 @@ body{
         font-weight: 800;
     }
     .banner-texts p{
-        margin-top: 30px;
+        margin-top: 10px;
         width: 90%;
         color: rgb(13, 19, 33);
         font-family: "Azeret Mono";
@@ -427,10 +428,77 @@ body{
     .banner-button button{
         width: 200px;
         height: 56px;
+        margin-top: 20px;
         border-radius: 8px;
         font-size: 15px;
         padding: 21px 24px 21px 24px;
     }
+    /*why wev dev section styles*/
+.web-dev-outside{
+    /* border: 2px solid black; */
+    width: 80%;
+    height: auto;
+    margin-top: 55px;
+}
+.web-dev-inside{
+    /* border: 2px solid red; */
+    width: 80%;
+    gap: 40px;
+}
+.web-dev-titles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.web-dev-titles h3{
+    font-size: 24px;
+    text-align: center;
+    /* text-align: start; */
+}
+.web-dev-titles p{
+    text-align: center;
+    width: 90%;
+    font-size: 12px;
+    line-height: 20px;
+    /* text-align: start; */
+    opacity: 0.7;
+    /* margin-left: -10px; */
+    margin-top: -10px;
+}
+.inside-box{
+    /* border: 2px solid green; */
+    width: 90%;
+    height: 600px;
+}
+.content-box{
+    width: 80%;
+    height: 500;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.left{
+    width: 100%;
+    height: auto;
+}
+.left h3{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.left p{
+    width: 100%;
+    font-size: 14px;
+}
+
+.right img{
+    height: 90%;
+    width: 90%;
+    margin-left: 20px;
+}
 }
     
 
